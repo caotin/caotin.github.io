@@ -127,7 +127,7 @@ export default function App() {
             <div className="flex items-center justify-center gap-6 text-slate-500 mb-8">
               <div className="flex items-center gap-2">
                 <Mail className="w-5 h-5" />
-                <span>tin.huynh@napaglobal.com</span>
+                <span>caotin97@gmail.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-5 h-5" />
@@ -138,9 +138,11 @@ export default function App() {
               <Badge variant="secondary" className="text-lg px-6 py-2">
                 7+ Years Experience
               </Badge>
-              <Badge className="text-lg px-6 py-2 bg-gradient-to-r from-green-500 to-emerald-600 text-white border-0">
-                Project Ready
-              </Badge>
+              <a href="https://www.linkedin.com/in/cao-tin/" target="_blank" rel="noopener noreferrer">
+                <Badge className="text-lg px-6 py-2 bg-gradient-to-r from-green-500 to-emerald-600 text-white border-0">
+                  LinkedIn
+                </Badge>
+              </a>
             </div>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto">
               Ready to deliver complete projects from React/Flutter frontend to Node.js/Python backend with AWS infrastructure
@@ -412,7 +414,7 @@ export default function App() {
                 size="lg" 
                 variant="secondary"
                 className="text-lg px-8 py-3 bg-white text-blue-600 hover:bg-blue-50"
-                onClick={() => window.location.href = 'mailto:tin.huynh@napaglobal.com'}
+                onClick={() => window.location.href = 'mailto:caotin97@gmail.com'}
               >
                 <Mail className="w-5 h-5 mr-2" />
                 Start Your Project
