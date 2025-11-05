@@ -1,15 +1,212 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huynh Van Cao Tin - Full-Stack Developer & AI Engineer</title>
     <meta name="description" content="Experienced full-stack developer and AI engineer specializing in React, Node.js, Python, and AWS infrastructure. Ready to deliver complete projects from conception to deployment.">
-    <script type="module" crossorigin src="/assets/index-DDwQppo8.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BCtxVx3I.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Three.js Canvas -->
+    <canvas id="bg"></canvas>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">CT</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">Huynh Van Cao Tin</span>
+                </h1>
+                <p class="hero-subtitle">Full-Stack Developer & AI Engineer</p>
+                <p class="hero-description">
+                    Crafting innovative solutions with React, Node.js, Python, and AWS
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I'm a passionate <strong>Full-Stack Developer</strong> and <strong>AI Engineer</strong>
+                            with a proven track record of delivering complete projects from conception to deployment.
+                        </p>
+                        <p>
+                            With expertise in modern web technologies and artificial intelligence, I specialize in
+                            creating scalable, efficient, and user-friendly applications that solve real-world problems.
+                        </p>
+                        <p>
+                            My approach combines technical excellence with creative problem-solving, ensuring that
+                            every project I work on not only meets but exceeds expectations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">⚛️</div>
+                        <h3>Frontend Development</h3>
+                        <ul class="skill-list">
+                            <li>React.js</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>HTML5 & CSS3</li>
+                            <li>Three.js</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🚀</div>
+                        <h3>Backend Development</h3>
+                        <ul class="skill-list">
+                            <li>Node.js</li>
+                            <li>Python</li>
+                            <li>RESTful APIs</li>
+                            <li>Database Design</li>
+                            <li>Microservices</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">☁️</div>
+                        <h3>Cloud & DevOps</h3>
+                        <ul class="skill-list">
+                            <li>AWS Infrastructure</li>
+                            <li>Docker</li>
+                            <li>CI/CD</li>
+                            <li>Serverless</li>
+                            <li>Monitoring</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🤖</div>
+                        <h3>AI & Machine Learning</h3>
+                        <ul class="skill-list">
+                            <li>Machine Learning</li>
+                            <li>Deep Learning</li>
+                            <li>Natural Language Processing</li>
+                            <li>TensorFlow</li>
+                            <li>PyTorch</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Full-Stack Web Applications</h3>
+                            <p>
+                                Developed comprehensive web applications using React, Node.js, and AWS,
+                                delivering scalable solutions for enterprise clients.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>AI-Powered Solutions</h3>
+                            <p>
+                                Created intelligent systems using machine learning and AI technologies
+                                to automate processes and provide data-driven insights.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">TensorFlow</span>
+                                <span class="tag">NLP</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Cloud Infrastructure</h3>
+                            <p>
+                                Designed and implemented robust cloud infrastructure on AWS,
+                                ensuring high availability and optimal performance.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">AWS</span>
+                                <span class="tag">Docker</span>
+                                <span class="tag">CI/CD</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <p class="contact-description">
+                        I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:huynhcaotin101@gmail.com" class="contact-link">
+                            <span class="contact-icon">📧</span>
+                            <span>huynhcaotin101@gmail.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/cao-tin" target="_blank" rel="noopener noreferrer" class="contact-link">
+                            <span class="contact-icon">💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/caotin" target="_blank" rel="noopener noreferrer" class="contact-link">
+                            <span class="contact-icon">💻</span>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Huynh Van Cao Tin. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Three.js Script -->
+    <script type="module" src="main.js"></script>
+</body>
 </html>
